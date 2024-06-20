@@ -28,7 +28,7 @@
 .progress-bar {
   position: absolute;
   left: 0;
-  background-color: beige;
+  background-color: brown;
   height: 2px;
   width: 0;
   transition: 0.4s ease-out;

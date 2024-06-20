@@ -15,11 +15,13 @@
 .menu-open p {
   color: black;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .menu-close p {
   color: black;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .menu-overlay {
@@ -50,6 +52,9 @@
   flex-direction: column;
   justify-content: space-between;
   padding-top: 2em;
+}
+.menu-logo a{
+    font-size: 1.2rem;
 }
 .menu-overlay-bar {
   width: 100%;
