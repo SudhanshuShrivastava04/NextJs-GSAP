@@ -1,0 +1,75 @@
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  color: #000000;
+  position: relative;
+}
+
+.loading {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.follow {
+  position: absolute;
+  background-color: beige;
+  height: 2px;
+  width: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.progress-bar {
+  position: absolute;
+  left: 0;
+  background-color: brown;
+  height: 2px;
+  width: 0;
+  transition: 0.4s ease-out;
+}
+
+#count {
+  position: absolute;
+  font-size: 5rem;
+  color: beige;
+  font-weight: 500;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #121212;
+  padding: auto;
+
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+}
+
+.content p {
+  text-align: center;
+  font-size: 104px;
+  opacity: 0;
+  display: none;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  #count{
+    font-size: 2rem;
+  }
+}

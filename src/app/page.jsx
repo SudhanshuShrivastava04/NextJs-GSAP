@@ -1,8 +1,9 @@
+
 export default function Home() {
   return (
     <div className="page-content hero">
       <h1>
-        home <sup>(01)</sup>
+        Index <sup>(01)</sup>
       </h1>
     </div>
   );
